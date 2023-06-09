@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Slide 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+
+        <section>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <img
+                  width="100"
+                  src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
+                  alt="Logo WSB"
+                />
+              </div>
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+              <div class="flex items-center justify-center">
+                <img
+                  width="100"
+                  src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
+                  alt="Logo WSB"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1">
+              <div class="flex items-center justify-center">
+                <p>Text</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="flex items-center justify-center">
+                <img
+                  width="100"
+                  src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
+                  alt="Logo WSB"
+                />
+              </div>
+              <div class="flex items-center justify-center">
+                <img
+                  width="100"
+                  src="https://yt3.googleusercontent.com/KrXLtsaBiD6iZUpCwryzDeJHTTGQva2oYYuzqeb9bVWx7m43nqQIxZxhpIX7G4MOeoll0iLf0kc=s900-c-k-c0x00ffffff-no-rj"
+                  alt="Logo WSB"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

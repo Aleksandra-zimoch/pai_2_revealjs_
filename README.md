@@ -1,1 +1,1 @@
-# pai_2_revealjs_
+WSB - reveal.js + bootstrap
