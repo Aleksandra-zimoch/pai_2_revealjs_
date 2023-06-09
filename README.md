@@ -1,1 +1,1 @@
-WSB - reveal.js + bootstrap
+reveal.js + bootstrap
